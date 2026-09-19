@@ -1,0 +1,58 @@
+{
+  "title": "Lesson 01 · 混合题型样本",
+  "questions": [
+    {
+      "type": "single-choice",
+      "question": "She ____ to the theatre last night.",
+      "choices": [
+        { "content": "went", "correct": true },
+        { "content": "go", "correct": false },
+        { "content": "goes", "correct": false },
+        { "content": "going", "correct": false }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which of the following are irregular verbs?",
+      "choices": [
+        { "content": "go", "correct": true },
+        { "content": "eat", "correct": true },
+        { "content": "walk", "correct": false },
+        { "content": "buy", "correct": true },
+        { "content": "talk", "correct": false }
+      ]
+    },
+    {
+      "question": "I have confidence ____ you.",
+      "choices": [
+        { "content": "in", "correct": true },
+        { "content": "on", "correct": false },
+        { "content": "at", "correct": false }
+      ]
+    },
+    {
+      "type": "true-false",
+      "question": "The past tense of \"think\" is \"thinked\".",
+      "answer": false
+    },
+    {
+      "type": "cloze",
+      "passage": "Last week I {{1}} to the theatre. I did not enjoy the play because the man behind me was talking {{2}}.",
+      "blanks": [{ "answer": "went" }, { "answer": "loudly" }]
+    },
+    {
+      "question": "Choose the correct preposition: I am angry ____ him ____ what he said.",
+      "options": [
+        { "content": "with / about", "correct": true },
+        { "content": "about / with", "correct": false },
+        { "content": "for / on", "correct": false }
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which sentence is correct?",
+      "choices": ["She didn't went out.", "She didn't go out.", "She not went out."],
+      "answer": 2
+    }
+  ]
+}

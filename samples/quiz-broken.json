@@ -1,0 +1,56 @@
+{
+  "title": "坏数据样本 · 用于验证逐条跳过",
+  "questions": [
+    {
+      "type": "single-choice",
+      "question": "This one is fine and must be imported.",
+      "choices": [
+        { "content": "right", "correct": true },
+        { "content": "wrong", "correct": false }
+      ]
+    },
+    {
+      "type": "single-choice",
+      "question": "No option carries a correct flag, and there is no answer key.",
+      "choices": [{ "content": "A" }, { "content": "B" }, { "content": "C" }]
+    },
+    {
+      "type": "single-choice",
+      "question": "Every option is explicitly marked false.",
+      "choices": [
+        { "content": "A", "correct": false },
+        { "content": "B", "correct": false }
+      ]
+    },
+    {
+      "type": "essay",
+      "question": "An unknown question type that we cannot safely handle."
+    },
+    {
+      "type": "single-choice",
+      "question": "Declared single choice, but two options are marked correct.",
+      "choices": [
+        { "content": "A", "correct": true },
+        { "content": "B", "correct": true }
+      ]
+    },
+    {
+      "type": "cloze",
+      "passage": "Markers jump from {{1}} straight to {{3}}.",
+      "blanks": [{ "answer": "one" }, { "answer": "three" }]
+    },
+    {
+      "type": "cloze",
+      "passage": "There are two blanks here {{1}} and here {{2}}.",
+      "blanks": [{ "answer": "one" }]
+    },
+    {
+      "type": "single-choice",
+      "choices": [
+        { "content": "A", "correct": true },
+        { "content": "B", "correct": false }
+      ]
+    },
+    "a bare string is not a question"
+  ]
+}

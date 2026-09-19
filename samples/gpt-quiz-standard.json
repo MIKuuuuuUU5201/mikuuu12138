@@ -1,0 +1,36 @@
+{
+  "title": "标准格式 · 混合题型",
+  "items": [
+    {
+      "type": "multiple_choice",
+      "question": "She ____ to the theatre last night.",
+      "options": ["went", "go", "goes", "going"],
+      "answer": 1,
+      "explanation": "last night 是过去时间状语，用过去式 went。"
+    },
+    {
+      "type": "true_false",
+      "statement": "The past tense of \"think\" is \"thinked\".",
+      "answer": false,
+      "explanation": "think 的过去式是 thought，不是 thinked。"
+    },
+    {
+      "type": "cloze",
+      "passage": "Last week I {{1}} to the theatre. The man behind me was talking {{2}}.",
+      "blanks": [
+        {
+          "number": 1,
+          "options": ["went", "go", "goes", "going"],
+          "answer": 1,
+          "explanation": "Last week 提示过去时，选 went。"
+        },
+        {
+          "number": 2,
+          "options": ["loud", "loudly", "loudness", "louder"],
+          "answer": 2,
+          "explanation": "修饰动词 talking 要用副词 loudly。"
+        }
+      ]
+    }
+  ]
+}
