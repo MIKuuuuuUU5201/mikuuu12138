@@ -43,7 +43,7 @@ jobs:
       # 仓库名不同就改这一行（或改为 repository 名自动推导）。
       - name: Build
         env:
-          VITE_BASE: /english-site/
+          VITE_BASE: /mikuuu12138/
         run: npm run build
 
       - uses: actions/configure-pages@v5
